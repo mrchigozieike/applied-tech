@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-
-
-
-.home-title {
-    font-family: 'Italiana', serif;
-    font-size: 2em;
-}
-            
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&family=Roboto+Slab:wght@200&family=Roboto:wght@500&display=swap');
 body {
   max-width: 960px;
   margin: 0 auto;
