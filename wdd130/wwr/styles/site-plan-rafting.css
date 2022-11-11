@@ -409,6 +409,31 @@ footer   {
   align-items: center;
 }
 
+.main{
+  height: 750px;
+  width: 750px;
+
+}
+
+.about-img { 
+  
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 550px; 
+  height: 550px; 
+  float:left;
+    
+} 
+.about-me{
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.about-txt{
+ 
+  margin-right: 50px;
+  padding-bottom: 35%;
+}
 
 
 
