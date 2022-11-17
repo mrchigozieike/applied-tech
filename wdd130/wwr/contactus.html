@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+        <title>Contact Us</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="styles/site-plan-rafting.css" />
@@ -16,30 +16,54 @@
                 <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
             </a>
             <nav>
-                <a href="index.html">Home</a>  
-                <a href="about.html">About Me</a>           
-                <a href="contactme.html">Contact Me</a>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
 
-       <main>
-       <h1>CHIGOZIE HENRY IKE</h1> 
-       <p> mrchigozieike@gmail.com</p>
-        <p>Plot 1423 Akwakuma Owerri imo state Nigeria. </p>
-       <p> +2348063365400</p>
-       <p> www.linkedin.com/in/chigozie-henry-ike</p>
-        
-        
-        <p class="about-me">It’s Chigozie Henry Ike here, I am studying at Brigham Young University to get a bachelor in Applied Technology, I have acquired my Higher National Diploma in Computer Science, I love to learn, and my problem-solving ability will distinguish me in a working environment.
-        I spent the last three years building professional experience in web and computer programming
-        I have completed many graphic design projects, including a website for White Water Rafting.
-        Please consult me regarding any web design job.</p>
-        
-        <h1>Brigham Young University</h1>
-       <p>Present</p> 
-        <p>PathwayConnect Certificate</p>
-  
-   
+       <main>  
+        <div id="feedback">
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                  </li>
+                  <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email" />
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                </ul>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+              </form>
+
+
+        </div>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function(e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
         
      
         </main>  
