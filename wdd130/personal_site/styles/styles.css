@@ -52,16 +52,17 @@ body {
   margin-top: 25px;
   transform: scale(1.1);
 }
-
+h1{
+  font-family: 'Roboto Slab', serif;
+}
 h2, h3, h4, h5, h6 {
   font-size: 22px;
-  font-family: var(--heading-font);
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 h2 {
   color: #396E94;
   margin: 0;
-  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 hr {
@@ -78,7 +79,7 @@ header {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: 'Roboto', sans-serif;
   color: var(--paragraph-color);
   padding: 1em;
 }
@@ -450,8 +451,7 @@ footer   {
   left: 0;
   right: 0;
   padding: .5em;
-  /* make this element invisible until we are ready for it */
-  display: none;      
+       
 }
 .moveDown {
   margin-top: 3em;
