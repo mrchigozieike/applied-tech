@@ -58,7 +58,7 @@ h1{
 h2, h3, h4, h5, h6 {
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: black;
 }
 h2 {
   color: #396E94;
@@ -221,20 +221,39 @@ nav a:hover {
   background-color: #F3EDE1; 
   padding: 55px; 
   
-  box-shadow: 5px 5px 10px #6f7364;
+  box-shadow: 5px 5px 10px #6f7364
  
 }
 
-
-#boast{
-  color:#396E94;
-}
-.button-box{
-  grid-column: 1/4;
-  grid-row: 1/3;
-  text-align: center;
+body, html {
+  height: 100%;
 }
 
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
+/* Set a specific height */
+height: 50%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+font-size: 30px;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: black;
+}
 .book, .join{
   background-color: #d9c2a3;
   color: black;
