@@ -278,7 +278,9 @@ color: black;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
 }
-
+.me{
+  border-radius: 50%;
+}
 .msg p{
   color: white;
 
@@ -403,7 +405,14 @@ main, section {
 footer .social img   {
   padding-top: 15px;
 }
-
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
 footer a{
   text-decoration: none;
