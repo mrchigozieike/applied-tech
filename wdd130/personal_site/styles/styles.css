@@ -214,14 +214,8 @@ nav a:hover {
 }
 
 .boast{
-  width: 40%;
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  background-color: #F3EDE1; 
-  padding: 55px; 
-  
-  box-shadow: 5px 5px 10px #6f7364
+  box-shadow: 5px 5px 10px #6f7364;
  
 }
 
@@ -402,8 +396,22 @@ main, section {
   margin: 0 auto;
   
 }
+
+
+.container{
+  
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+}
+
+.personal{
+  padding: 20px;
+  max-width: 50%;
+}
 footer .social img   {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .fa {
   padding: 20px;
