@@ -214,8 +214,14 @@ nav a:hover {
 }
 
 .boast{
+  width: 40%;
   text-align: center;
-  box-shadow: 5px 5px 10px #6f7364;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #F3EDE1; 
+  padding: 55px; 
+  
+  box-shadow: 5px 5px 10px #6f7364
  
 }
 
@@ -272,9 +278,7 @@ color: black;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
 }
-.me{
-  border-radius: 50%;
-}
+
 .msg p{
   color: white;
 
@@ -396,31 +400,10 @@ main, section {
   margin: 0 auto;
   
 }
-
-
-.container{
-  
-  display: flex;
-  align-items: center;
-  justify-content:center;
-
-}
-
-.personal{
-  padding: 20px;
-  max-width: 50%;
-}
 footer .social img   {
-  padding-top: 10px;
+  padding-top: 15px;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
+
 
 footer a{
   text-decoration: none;
